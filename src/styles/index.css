@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+body {
+    background-color: #1c2431;
+    font-family: var(--font-sans);
+}
+
+@theme {
+  --font-sans: "Inter", sans-serif;
+  --font-second: "Roboto Condensed", sans-serif;
+}
