@@ -4,10 +4,10 @@ import RightArrow from "../../images/icon-arrow.svg";
 function ProdSection() {
   return (
     <>
-      <section className="flex items-center justify-center gap-20 bg-[#181e2a] p-10 flex-col md:flex-row">
+      <section className="flex items-center justify-evenly gap-10 bg-[#181e2a] p-10 flex-col pt-20 md:pt-30 md:flex-row">
           {/* Left */}
         <div>
-          <img src={illustratorImage} alt="Illustrator Image"/>
+          <img src={illustratorImage} alt="Illustrator Image" className="w-2xl"/>
         </div>
 
           {/* Right */}
