@@ -1,7 +1,7 @@
 function Access (){
     return<>
-    <section className="bg-[#181e2a] flex items-center justify-center pt-10 md:pt-30 px-7">
-        <div className="text-white bg-[#1c2230] md:max-w-250 p-5 md:p-20 text-center rounded-2xl">
+    <section className="flex items-center justify-center pt-10 md:pt-30 pb-16 md:pb-5 px-7 relative z-10" style={{background: "linear-gradient(to bottom, #181e2a 50%, #0b1524 50%)"}}>
+        <div className="text-white bg-[#1c2230] md:max-w-250 p-5 md:p-20 text-center rounded-2xl shadow-2xl">
             <h4 className="text-2xl md:text-5xl font-bold">Get early access today</h4>
             <p className="my-7">it only takes a minute to sign up and our free starter tier is extremely generous. if you have any questions, our support team would be happy to help you.</p>
 
